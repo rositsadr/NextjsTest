@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import { Button, SectionContainer, SectionBigHeading, SectionSubheading } from "~/components";
+import { Button, SectionContainer, SectionBigHeading, SectionSubheading, TextContainer } from "~/components";
 
-export const StyledContainer = styled(({ height, ...props }) => <SectionContainer {...props} />)`
-  align-items: center;
-`;
+export const StyledContainer = styled(({ height, ...props }) => <SectionContainer {...props} />)``;
 
 export const StyledGetStartedBtn = styled((props) => <Button {...props} variant="contained" color="main" />)`
   margin-top: 4.375rem;
@@ -20,11 +18,9 @@ export const StyledDescription = styled((props) => <SectionSubheading {...props}
   margin: 1.563rem 0 0;
 `;
 
-export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
-  color: black;
+export const StyledTextContainer = styled((props) => <TextContainer {...props} />)`
   width: 30%;
   margin-left: 11.125rem;
-  font-family: sans-serif;
 `;
 
 export const StyledCTAContainer = styled(({ ...props }) => <div {...props} />)`

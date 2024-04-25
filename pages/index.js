@@ -1,5 +1,6 @@
 import { Hero } from "../sections";
 import { Main } from "../sections";
+
  
 const heroProps = {
   image: { src: "/img/heroimg.png", alt: "", width: 1000, height: 1680 },
@@ -9,6 +10,7 @@ const heroProps = {
 };
 
 const mainProps = {
+  image: {src: "/img/video.png", alt: "", width: 1000, height: 1680 },
   title: "Managed agency selection",
   description: "Stengthen your onboarding process",
 };

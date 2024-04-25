@@ -5,6 +5,7 @@ export const StyledSectionContainer = styled(({ topMargin = 0, bottomMargin = 0,
   max-width: 1920px;
   width: 100%;
   height: auto;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: ${({ topMargin }) => topMargin}rem;

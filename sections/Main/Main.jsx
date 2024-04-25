@@ -1,13 +1,20 @@
-import { StyledContainer, StyledDescription, StyledImageContainer, StyledTextContainer, StyledTitle } from "../Main/elements"
+import Image from "next/image";
 
-export const Main = ({title, description, ...props}) => {
+import { StyledContainer, StyledInnerHeading, StyledImageContainer, StyledTextContainer, StyledSectionTitle, StyledSubsectionContainer, StyledCardContainer } from "../Main/elements";
+
+export const Main = ({image, title, description, ...props}) => {
     return (
     <StyledContainer {...props}>
         <StyledTextContainer>
-            <StyledTitle>{title}</StyledTitle>
-            <StyledDescription>{description}</StyledDescription>
+            <StyledSectionTitle>{title}</StyledSectionTitle>
+            <StyledInnerHeading>{description}</StyledInnerHeading>
         </StyledTextContainer>
-        <StyledImageContainer> </StyledImageContainer>
+        <StyledSubsectionContainer>
+            <StyledImageContainer>
+                <Image layout="responsive" src={image.src} width={image.width} height={image.height}/>
+            </StyledImageContainer>
+            <StyledCardContainer></StyledCardContainer>
+        </StyledSubsectionContainer>
     </StyledContainer>
     );
 }
