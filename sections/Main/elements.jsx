@@ -12,6 +12,7 @@ export const StyledTextContainer = styled(({ ...props }) => <TextContainer { ...
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 2rem;
 `;
 
 export const StyledSectionTitle = styled((props) => <SectionHeading { ...props } />)`
@@ -19,27 +20,18 @@ export const StyledSectionTitle = styled((props) => <SectionHeading { ...props }
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 0;
+
+  @media only screen and (max-width: 1024px ){
+    font-size: 3rem;
+    line-height: 4rem;
+   }
 `;
 
 export const StyledInnerHeading = styled((props) => <SectionInnerHeading { ...props } />)`
   margin: 0;
-`;
 
-export const StyledImageContainer = styled(({ ...props }) => <div { ...props } />)`
-  max-width: 20rem;
-  max-height: 35rem;
-  width: 43%;
-  height: 70%;
-  margin-left: 15rem;
+  @media only screen and (max-width: 1024px ){
+    font-size: 1.5rem;
+    line-height: 2rem;
+   }
 `;
-
-export const StyledSubsectionContainer = styled(({ ...props }) => <SectionContainer { ...props }/>)`
-  background-image: url('/img/background.png');
-  background-size: 75%;
-  background-repeat: no-repeat;
-  background-position: top 2rem left 0;
-  margin: 2.7rem;
-  padding-bottom: 3rem;
-`;
-
-export const StyledCardContainer = styled(({ ...props }) => <SectionContainer { ...props }/>)``;
