@@ -16,17 +16,17 @@ const mainProps = {
   brief: {
     text: "Brief", 
     description: "Complete <b> brief writing or simple guideance </b> on what to include, we've got you coverd.",
-    image: {src: "/img/briefIcon.png", alt: "", width: 100, height: 100},
+    image: {src: "/img/briefIcon.png", alt: "", width: 124, height: 124},
   },
   search: {
     text: "Search",
     description: "In-depth agency search covering; <b> criteria matching <b> door knocking and due-dilligence vetting.",
-    image:{src: "/img/searchIcon.png", alt: "", width: 100, height: 100 },
+    image:{src: "/img/searchIcon.png", alt: "", width: 124, height: 124 },
   },
   pitch: {
     text: "Pitch",
     description: "Comprehensive <b>pitch management<b>, including comms, diary management and pitch hosting.",
-    image: {src: "/img/pitchIcon.png", alt: "", width: 100, height: 100 },
+    image: {src: "/img/pitchIcon.png", alt: "", width: 124, height: 124 },
   }, 
 };
 

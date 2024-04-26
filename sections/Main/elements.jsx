@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {SectionContainer, SectionHeading, SectionInnerHeading, TextContainer} from "~/components";
 
 export const StyledContainer = styled(({ ...props }) => <SectionContainer { ...props } />)`
-  margin-top: 8rem;
+  margin-top: 5rem;
   flex-direction: column;
 `;
 

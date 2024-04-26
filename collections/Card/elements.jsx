@@ -4,7 +4,6 @@ import {SectionContainer} from "~/components";
 import { Selection } from "../../collections";
 
 export const StyledSectionCardContainer = styled((props) => <SectionContainer { ...props }/>)`
-max-width: 1920px;
   flex-wrap: wrap;
   justify-content: center;
   background-image: url('/img/background.png');
@@ -22,10 +21,12 @@ max-width: 1920px;
 export const StyledImageContainer = styled(({ ...props }) => <div { ...props } />)`
   width: 100%;
   height: 100%;
-  max-width: 25%;
+  max-width: 21rem;
+  margin-left: 3rem;
 
    @media only screen and (max-width: 1024px ){
     max-width: 50%;
+    margin-left: 0;
    }
 `;
 

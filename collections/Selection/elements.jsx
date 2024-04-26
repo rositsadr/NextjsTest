@@ -20,8 +20,8 @@ export const StyledParagraph = styled((props) => <SectionParagraph {...props}/>)
 export const StyledLink = styled((props) => <Link {...props}/>)``;
 
 export const StyledImageContainer = styled(({...props}) => <div {...props}/>)`
-  max-width: 100px;
-  max-heigth: 100px;
+  max-width: 140px;
+  max-heigth: 140px;
   width: 100%;
   height: 100%;
   margin: 1rem;
