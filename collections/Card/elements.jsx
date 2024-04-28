@@ -8,9 +8,9 @@ export const StyledSectionCardContainer = styled((props) => <SectionContainer { 
   justify-content: center;
   max-width: 1420px;
   background-image: url('/img/background.png');
-  background-size: 75%;
+  background-size: 71%;
   background-repeat: no-repeat;
-  background-position: top 3rem left 0;
+  background-position: top 1rem left 0;
   margin: 1rem;
   padding-bottom: 3rem;
 
@@ -22,9 +22,9 @@ export const StyledSectionCardContainer = styled((props) => <SectionContainer { 
 
 export const StyledImageContainer = styled(({ ...props }) => <div { ...props } />)`
   width: 100%;
-  height: 100%;
-  max-width: 25%;
-  margin-left: 3rem;
+  height: auto;
+  max-width: 20rem;
+  margin-left: 1.5rem;
 
    @media only screen and (max-width: 1024px ){
     max-width: 50%;
@@ -36,7 +36,7 @@ export const StyledSelectionsContainer = styled(({...props}) => <div {...props}/
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-  margin-left: 3.5rem;
+  margin-left: 4rem;
   transition: color 0.15s ease, border-color 0.15s ease;
 
   @media only screen and (max-width: 1024px ){
@@ -46,29 +46,28 @@ export const StyledSelectionsContainer = styled(({...props}) => <div {...props}/
 `;
 
 export const StyledBriefSelection = styled((props) => <Selection {...props}/>)`
-  max-width: 27.5rem;
+  max-width: 30rem;
   background-color: #f9f9f9;
 
   @media only screen and (max-width: 1024px ){
-    max-width: 37rem;
+    max-width: 64%;
    }
-  
 `;
 
 export const StyledSearchSelection = styled((props) => <Selection {...props}/>)`
-  max-width: 30rem;
+  max-width: 32.5rem;
   background-color: #f4f4f4;
 
   @media only screen and (max-width: 1024px ){
-    max-width: 39.5rem;
+    max-width: 68%;
    }
 `;
 
 export const StyledPitchSelection = styled((props) => <Selection {...props}/>)`
-  max-width: 32.5rem;
+  max-width: 35rem;
   background-color: #f1f1f1;
 
   @media only screen and (max-width: 1024px ){
-    max-width: 42rem;
+    max-width: 72%;
    }
 `;

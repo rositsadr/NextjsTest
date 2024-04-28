@@ -6,7 +6,7 @@ export const Selection = ({text, description, icon, ...props}) => {
     return(
         <StyledSelectionContainer {...props}>
             <StyledImageContainer>
-                <Image layout="responsive" src={icon.src} alt={icon.alt} width={icon.width} height={icon.height}/>
+                <Image layout="responsive" src={icon.src} alt={icon.alt} width={icon.width} height={icon.height} />
             </StyledImageContainer>
             <StyledTextContainer>
                 <StyledLink>{text}</StyledLink>

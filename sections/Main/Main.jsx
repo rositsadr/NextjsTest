@@ -4,7 +4,7 @@ import {
     StyledContainer, 
     StyledInnerHeading, 
     StyledTextContainer, 
-    StyledSectionTitle,  } from "../Main/elements";
+    StyledSectionTitle,  } from "./elements";
 
 export const Main = ({image, title, description, brief, search, pitch, ...props}) => {
     return (

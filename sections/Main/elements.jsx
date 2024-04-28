@@ -25,6 +25,11 @@ export const StyledSectionTitle = styled((props) => <SectionHeading { ...props }
     font-size: 3rem;
     line-height: 4rem;
    }
+
+   @media only screen and (max-width: 768px) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+   }
 `;
 
 export const StyledInnerHeading = styled((props) => <SectionInnerHeading { ...props } />)`
@@ -34,4 +39,10 @@ export const StyledInnerHeading = styled((props) => <SectionInnerHeading { ...pr
     font-size: 1.5rem;
     line-height: 2rem;
    }
+
+   @media only screen and (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+   }
+   
 `;
