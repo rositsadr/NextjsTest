@@ -7,7 +7,6 @@ import {
     StyledBriefSelection,
     StyledPitchSelection,
     StyledSearchSelection,
-    StyledBackgroungContainer,
 } from "./elements";
 
 export const Card = ({image, brief, search, pitch, ...props}) => {
