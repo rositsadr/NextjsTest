@@ -6,14 +6,14 @@ import {
     StyledTextContainer, 
     StyledSectionTitle,  } from "./elements";
 
-export const Main = ({image, title, description, brief, search, pitch, ...props}) => {
+export const Main = ({image, title, description, brief, search, pitch, sign, ...props}) => {
     return (
     <StyledContainer {...props}>
         <StyledTextContainer>
             <StyledSectionTitle>{title}</StyledSectionTitle>
             <StyledInnerHeading>{description}</StyledInnerHeading>
         </StyledTextContainer>
-        <Card image={image} brief={brief} search={search} pitch={pitch} />
+        <Card image={image} brief={brief} search={search} pitch={pitch} sign={sign} />
     </StyledContainer>
     );
 }

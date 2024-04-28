@@ -13,9 +13,10 @@ const mainProps = {
   image: {src: "/img/video.png", alt: "", width: 1000, height: 1680 },
   title: "Managed agency selection",
   description: "Stengthen your onboarding process",
+  sign: "link to brief generator??",
   brief: {
     text: "Brief", 
-    description:`Complete <b>brief writing or simple guideance<b> on what to include, we've got you coverd.`,
+    description: `Complete brief writing or simple guideance on what to include, we've got you coverd.`,
     image: {src: "/img/briefIcon.png", alt: "", width: 124, height: 124},
   },
   search: {

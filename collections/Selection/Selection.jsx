@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import {StyledLink, StyledParagraph, StyledSelectionContainer, StyledImageContainer, StyledTextContainer } from "./elements";
+import {StyledLink, StyledParagraph, StyledSelectionContainer, StyledImageContainer, StyledTextContainer} from "./elements";
 
 export const Selection = ({text, description, icon, ...props}) => {
     return(

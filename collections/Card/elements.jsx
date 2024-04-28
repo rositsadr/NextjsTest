@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import {SectionContainer} from "~/components";
+import {SectionContainer, Link} from "~/components";
 import { Selection } from "../../collections";
 
 export const StyledSectionCardContainer = styled((props) => <SectionContainer { ...props }/>)`
@@ -38,11 +38,30 @@ export const StyledSelectionsContainer = styled(({...props}) => <div {...props}/
   margin-top: 1rem;
   margin-left: 4rem;
   transition: color 0.15s ease, border-color 0.15s ease;
+  position: relative;
 
   @media only screen and (max-width: 1024px ){
     margin-top: 3rem;
     margin-left:0;
    }
+`;
+
+export const StyledBriefSignContainer = styled(({...props}) => <div {...props}/>)`
+  max-width: 200px;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 3%;
+  transform: rotate(10deg);
+  
+  @media only screen and (max-width: 1024px ){
+    visibility: visible;
+   }
+`;
+
+export const StyledBriefLink = styled((props) => <Link {...props}/>)`
+  color: #e74c5b;
+  font-weight: 600;
 `;
 
 export const StyledBriefSelection = styled((props) => <Selection {...props}/>)`
